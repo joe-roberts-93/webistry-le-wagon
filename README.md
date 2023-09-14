@@ -1,5 +1,11 @@
 # LeWagon x Webistry Exercise
 
+Completed exercise to practise technical, front-end skills.
+
+See notes from Webistry below.
+
+___
+
 Hello and welcome to the LeWagon x Webistry exercise,
 
 If you have found your way here, then you are most likely participating at the live workshop at the LeWagon location. We're so excited to have you take part in this workshop. Otherwise, this is a fun way to test your coding skills, you are welcome regardless!
