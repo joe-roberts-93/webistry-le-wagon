@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Webistry x LeWagon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+    <div class="logos">
+        <img src="webistry.png" id="webistry" alt="Webistry logo">
+        <img src="lewagon.png" id="lewagon" alt="Le Wagon Logo">
+    </div>
+    <div class="header">
+        <h1><span class="orange-header-text">Level up</span> your coding skills with Webistry.</h1>
+    </div>
+    <div class="form-container">
+        <h2>Let's get started by knowing more about you.</h2>
+        <form class="form">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" class="input-control" required><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" class="input-control" required><br>
+            <label for="coding-language">What's your favorite coding language?</label><br>
+            <select id="coding-language" name="coding-language" class="input-control" required>
+                <option value="javascript">JavaScript</option>
+                <option value="python">Python</option>
+                <option value="ruby">Ruby</option>
+            </select><br>
+            <input type="checkbox" id="accurate" name="accurate" value="confirm" required>
+            <label for="accurate">The information provided above is accurate</label><br>
+            <input type="submit" value="Level Up" class="orange-button">
+        </form>
+    </div>
+</main>
+<script src="main.js"></script>
+</body>
+</html>
